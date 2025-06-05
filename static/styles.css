@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px;
+    background-color:#007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
